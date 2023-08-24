@@ -3,7 +3,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.SwingConstants.*;
 
-public class Menu extends JFrame implements actionListener {
+public class Menu extends JFrame {
     public Menu() {
         setVisible(true);
         initComponents();
@@ -216,7 +216,7 @@ public class Menu extends JFrame implements actionListener {
             new Object [][] {
                 {"M01", "Chicken Burger",  new Integer(8)},
                 {"M02", "Cheese Burger",  new Integer(8)},
-                {"M03", "Beef  Burger",  new Integer(8)},
+                {"M03", "Beef Burger",  new Integer(8)},
                 {"M04", "Pepperoni Pizza",  new Integer(8)},
                 {"M05", "Fried Chicken",  new Integer(8)},
                 {"M06", "Spaghetti",  new Integer(8)}

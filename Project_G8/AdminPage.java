@@ -5,7 +5,7 @@ import javax.swing.*;
 
 import javax.swing.*;
 
-public class AdminPage  extends JFrame implements actionListener {
+public class AdminPage  extends JFrame {
 
     public AdminPage() {
         initComponents();

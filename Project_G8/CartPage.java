@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 
-public class CartPage extends javax.swing.JFrame implements actionListener {
+public class CartPage extends javax.swing.JFrame  {
     DefaultTableModel dtm;
     ImageIcon logoIcon = new ImageIcon("image/icon.png");
     public CartPage(){
